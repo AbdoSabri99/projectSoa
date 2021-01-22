@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/motif/motif/motif.iml" filepath="$PROJECT_DIR$/motif/motif/motif.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/project.iml" filepath="$PROJECT_DIR$/.idea/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soumission/soumission/soumission.iml" filepath="$PROJECT_DIR$/soumission/soumission/soumission.iml" />
+    </modules>
+  </component>
+</project>
