@@ -25,7 +25,7 @@ public class SoumissionController {
     }
     //DELETE A SOUMISSION BY ID
     @GetMapping("delete/{id}")
-    public void deleteSoumission(@PathVariable int id){
+    public void deleteSoumission(@PathVariable String id){
         soumissionService.deleteSoumission(id);
     }
     //here get all appel offre for display them to the fournisseur

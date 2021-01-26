@@ -27,7 +27,7 @@ public class MotifController {
         motifservice.Save(motif);
     }
     @DeleteMapping("/{id}")
-    public  void deleteMotif(@PathVariable int id)
+    public  void deleteMotif(@PathVariable String id)
     {
          motifservice.deleteById(id);
     }

@@ -17,7 +17,7 @@ public class SoumissionService {
     public Soumission createSoumission(Soumission soumission){
         return soumissionRepository.save(soumission);
     }
-    public  void deleteSoumission(int id){
+    public  void deleteSoumission(String id){
         soumissionRepository.deleteById(id);
     }
 

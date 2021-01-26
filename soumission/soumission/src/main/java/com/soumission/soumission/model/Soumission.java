@@ -1,23 +1,23 @@
 package com.soumission.soumission.model;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
 
-@Entity
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection= "Soumission")
 public class Soumission {
-    @Id @GeneratedValue
-    private int id;
+    @Id
+    private String id;
 
 
     private int fournisseurId;
     private int offreId;
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

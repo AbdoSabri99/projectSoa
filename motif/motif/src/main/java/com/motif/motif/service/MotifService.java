@@ -27,11 +27,11 @@ public class MotifService {
         return  motifRepository.save(motif);
     }
 
-    public void deleteById(int id) {
+    public void deleteById(String id) {
         motifRepository.deleteById(id);
     }
     //function to check if a user have a motif;i will complete it if need
-    public boolean userHaveMotif(int id){
+    public boolean userHaveMotif(String id){
         return  motifRepository.existsById(id);
     }
 }
