@@ -5,6 +5,10 @@
       <list>
         <option value="$PROJECT_DIR$/motif/motif/pom.xml" />
         <option value="$PROJECT_DIR$/soumission/soumission/pom.xml" />
+        <option value="$PROJECT_DIR$/soa-appel-offre/soa-appel-offre/pom.xml" />
+        <option value="$PROJECT_DIR$/soa-besoin-service/soa-besoin-service/pom.xml" />
+        <option value="$PROJECT_DIR$/discoveryServer/discoveryServer/pom.xml" />
+        <option value="$PROJECT_DIR$/zull-server/pom.xml" />
       </list>
     </option>
   </component>

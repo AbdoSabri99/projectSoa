@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public interface MotifRepository extends MongoRepository<Motif,String> {
-    Motif findByUserId(int id);
+    //Motif findByUserId(int id);
 
     void deleteById(String id);
 

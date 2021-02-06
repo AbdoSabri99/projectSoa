@@ -19,9 +19,9 @@ public class MotifService {
         return motifRepository.findAll();
     }
 
-    public Motif findMotifUserId(int id) {
+   /* public Motif findMotifUserId(int id) {
         return motifRepository.findByUserId(id);
-    }
+    }*/
 
     public Motif Save(Motif motif) {
         return  motifRepository.save(motif);

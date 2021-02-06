@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/discoveryServer/discoveryServer/discoveryServer.iml" filepath="$PROJECT_DIR$/discoveryServer/discoveryServer/discoveryServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/motif/motif/motif.iml" filepath="$PROJECT_DIR$/motif/motif/motif.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/project.iml" filepath="$PROJECT_DIR$/.idea/project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-appel-offre/soa-appel-offre/soa-appel-offre.iml" filepath="$PROJECT_DIR$/soa-appel-offre/soa-appel-offre/soa-appel-offre.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soa-besoin-service/soa-besoin-service/soa-besoin-service.iml" filepath="$PROJECT_DIR$/soa-besoin-service/soa-besoin-service/soa-besoin-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/soumission/soumission/soumission.iml" filepath="$PROJECT_DIR$/soumission/soumission/soumission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zull-server/zull-server.iml" filepath="$PROJECT_DIR$/zull-server/zull-server.iml" />
     </modules>
   </component>
 </project>

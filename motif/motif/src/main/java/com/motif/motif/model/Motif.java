@@ -13,7 +13,8 @@ public class Motif {
     @Id
     private String id;
 
-    private  int userId;
+  //  private  int userId;
+    private  String userName;
 
     public LocalDate getDateFinMotif() {
         return dateFinMotif;
@@ -33,13 +34,21 @@ public class Motif {
         this.id = id;
     }
 
-    public int getId_user() {
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+  /*  public int getId_user() {
         return userId;
     }
 
     public void setId_user(int userId ) {
         this.userId = userId ;
-    }
+    }*/
 
     public String getDesc() {
         return desc;
@@ -50,4 +59,5 @@ public class Motif {
     }
 
     private  String desc;
+
 }
